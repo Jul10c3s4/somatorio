@@ -15,5 +15,5 @@ void main(List<String> arguments) {
     print("\ndeseja inserir mais algum número ? s para sim, n para não: ");
     resp = stdin.readLineSync() ?? '';
   } while (resp == 's');
-  print('Código finalizado...');
+  print('Código finalizado.');
 }
